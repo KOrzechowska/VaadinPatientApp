@@ -1,0 +1,12 @@
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/view/DefaultView.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/model/DefaultModel.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/model/Patient.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/controller/SiteUI.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/model/BadaniaDao.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/model/OperacjeDao.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/model/PatientDao.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/model/Operacja.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/view/SearchPatientSubWindow.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/model/Badanie.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/PatientApp.java
+/home/kasia/Dokumenty/telm/Szulcowe/src/main/java/eu/telm/controller/PatientController.java

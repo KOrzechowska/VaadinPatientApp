@@ -1,16 +1,19 @@
 package eu.telm.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.sql.Date;
+import java.util.List;
 
 /**
  * Created by kasia on 12.11.16.
  */
 @Entity
 @Table(name = "pacjenci")
-public class Patient extends DefaultModel {
+public class Patient  {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 
     @NotNull
     private String imie;
@@ -36,6 +39,25 @@ public class Patient extends DefaultModel {
     private String nrDomu;
     //@NotNull
     private boolean czyUbezp;
+
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "patient")
+    private List<Badanie> badanieList;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public List<Badanie> getBadanieList() {
+        return badanieList;
+    }
+
+    public void setBadanieList(List<Badanie> badanieList) {
+        this.badanieList = badanieList;
+    }
 
     public String getImie() {
         return imie;
