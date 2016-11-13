@@ -1,8 +1,0 @@
-eu/telm/model/Patient.class
-eu/telm/model/DefaultModel.class
-eu/telm/PatientApp.class
-eu/telm/view/DefaultView$1.class
-eu/telm/view/SearchPatientSubWindow.class
-eu/telm/view/DefaultView.class
-eu/telm/model/PatientDao.class
-eu/telm/controller/SiteUI.class
