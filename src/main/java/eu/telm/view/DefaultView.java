@@ -152,14 +152,14 @@ public class DefaultView extends VerticalLayout implements View {
         });
 
         tabelaBadan = new Grid();
-        tabelaBadan.setColumns("nazwa", "data", "wynik", "uwagi");
+        tabelaBadan.setColumns("data", "wynik", "uwagi");
         tabelaBadan.setSizeFull();
         tabelaBadan.setHeight(300, Unit.PIXELS);
         //VerticalLayout mainLayout = new VerticalLayout(form, tabelaBadan);
         form.addComponent(tabelaBadan);
 
         tabelaZabiegow = new Grid("Zabiegi");
-        tabelaZabiegow.setColumns("nazwa","data", "wynik", "uwagi");
+        tabelaZabiegow.setColumns("data", "wynik", "uwagi");
         tabelaZabiegow.setSizeFull();
         tabelaZabiegow.setHeight(300, Unit.PIXELS);
         form.addComponent(tabelaZabiegow);
